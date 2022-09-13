@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Form</title>
 </head>
 <body>
-
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Create an account</h1>
+            <p class="sub-title">We always keep your name and email address private.</p>
+        </div>
+        <form action="" class="form">
+            <div class="text-input">
+                <input class="row-input" type="text" name="first-name" id="" placeholder="First name">
+                <input class="row-input" type="text" name="last-name" id="" placeholder="Last name">
+                <input class="row-input" type="text" name="display-name" id="" placeholder="Display name">
+                <input class="row-input" type="email" name="email" id="" placeholder="Email Addres">
+                <input class="row-input" type="password" name="password" id="" placeholder="Password">
+                <input class="row-input" type="password" name="password-confirmation" id="" placeholder="Password Confirmation">
+            </div>
+            <div class="radio-input">
+                <label class="label-text"><input class="radio" type="radio" name="radio">Join As a Buyer</label>
+                <p class="label-sub-text">I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
+            </div>
+            <div class="radio-input">
+                <label class="label-text"><input class="radio" type="radio" name="radio">Join As a Creative or Marketplace Seller</label>
+                <p class="label-sub-text">I plan to submit name ideas, Logo designs or sell names in Domain Marketplace.</p>
+            </div>
+            <div class="checkbox-input">
+                <label class="label-sub-text padding"><input class="radio" type="checkbox">Allow Squadhelp to send marketing/promotional offers from time to time</label>
+            </div>
+            <div class="btn-create">
+                <a href="#" class="btn">Create account</a>
+            </div>
+            <div class="text-agree">
+                <p>By clicking this button, you agree to our <a href="#" class="link-agree"> Terms of Service</a>.</p>
+            </div>
+            <div class="btn-create">
+                <a href="#" class="btn brown"><b>G</b> Sign up with Google</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
